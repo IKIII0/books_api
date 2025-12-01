@@ -1,4 +1,4 @@
-const { pool } = require("pg");
+const { Pool } = require("pg");
 const dotenv = require("dotenv");
 
 // Aktifkan dotenv untuk memuat variabel lingkungan dari file .env
@@ -17,3 +17,4 @@ const pool = new Pool({
 });
 
 module.exports = pool ;
+
